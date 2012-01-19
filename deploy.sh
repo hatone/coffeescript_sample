@@ -3,3 +3,5 @@ export GEM_PATH=$GEM_HOME
 export PATH=$PATH:/usr/local/rvm/rubies/ruby-1.9.2-p180/bin:$HOME/.gem/ruby/1.9.1/bin
 
 coffee -c *.coffee
+
+ls /usr/local/rvm/rubies/ruby-1.9.2-p180/bin
