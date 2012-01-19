@@ -1,0 +1,6 @@
+[setup]
+ln -s . public_html
+bash setup.sh
+
+[deploy]
+bash deploy.sh
