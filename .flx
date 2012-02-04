@@ -1,9 +1,7 @@
 [setup]
 ln -s . public_html
-npm install coffee-script
 
 [deploy]
 chmod 705 node_modules/coffee-script/bin/coffee
-sed 's/NODE_PATH/\/usr\/local\/nave\/installed\/0.4.8\/bin\/node/g' node_modules/coffee-script/bin/flx_coffee > node_modules/coffee-script/bin/coffee
 coffee -c test.coffee
 tail test.js
