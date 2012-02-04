@@ -1,4 +1,3 @@
-
 for 1 in [1..100]
      str = if i % 3 is 0 and i % 5 is 0
           "fizzbuzz"
