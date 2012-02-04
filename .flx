@@ -1,5 +1,6 @@
 [setup]
 ln -s . public_html
+npm install coffee-script
 
 [deploy]
 chmod 705 node_modules/coffee-script/bin/coffee
