@@ -3,4 +3,5 @@ ln -s . public_html
 
 [deploy]
 chmod 705 node_modules/coffee-script/bin/coffee
-./node_modules/coffee-script/bin/coffee -v 
+./node_modules/coffee-script/bin/coffee -c test.coffee
+tail test.js
