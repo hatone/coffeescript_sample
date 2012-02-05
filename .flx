@@ -1,7 +1,6 @@
 [setup]
 ln -s . public_html
-echo $PATH
-
+export NODE_PATH=/usr/local/lib/nave/installed/0.4.8/bin/node
 [deploy]
 chmod 705 node_modules/coffee-script/bin/coffee
 ./node_modules/coffee-script/bin/coffee -c test.coffee
